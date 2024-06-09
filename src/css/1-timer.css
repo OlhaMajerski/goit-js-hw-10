@@ -22,7 +22,18 @@ input:hover,
 input:focus {
   border: 1px solid #000;
 }
-button {
+button:disabled {
+  background-color: #cfcfcf;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+/* button {
   border: none;
   border-radius: 8px;
   padding: 8px 16px;
@@ -32,7 +43,7 @@ button {
   font-weight: 500;
   letter-spacing: 0.04em;
   color: #fff;
-}
+} */
 .timer {
   display: flex;
   flex-direction: row;
