@@ -5,16 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Timer</title>
     <meta name="description" content="calendar" />
-    <link href="./css/reset.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="iziToast.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link href="./css/1-timer.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
   </head>
 
   <body>
+    <div><a href="./index.html">go back</a></div>
     <section>
-      <a href="./index.html">go back</a>
       <input type="text" id="datetime-picker" />
-      <button type="button" data-start>Start</button>
-
+      <button type="button" data-start>START</button>
       <div class="timer">
         <div class="field">
           <span class="value" data-days>00</span>
@@ -34,6 +44,7 @@
         </div>
       </div>
     </section>
+    <script src="iziToast.min.js" type="text/javascript"></script>
     <script src="./js/1-timer.js" type="module" defer></script>
   </body>
 </html>

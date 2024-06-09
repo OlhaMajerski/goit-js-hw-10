@@ -1,40 +1,61 @@
+body {
+  background-color: #fff;
+}
+section {
+  background-color: #fff;
+  padding-top: 36px;
+  padding-left: 156px;
+  margin: 0 auto;
+}
 input {
+  border: 1px solid #808080;
+  border-radius: 4px;
   width: 272px;
   height: 40px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-right: 8px;
+  margin-bottom: 32px;
+}
+input:hover,
+input:focus {
+  border: 1px solid #000;
 }
 button {
+  border: none;
   border-radius: 8px;
   padding: 8px 16px;
   width: 75px;
   height: 40px;
   background: #4e75ff;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
 }
 .timer {
   display: flex;
   flex-direction: row;
+  column-gap: 24px;
+  justify-content: center;
+  align-items: center;
   width: 346px;
   height: 72px;
 }
 .field {
   display: flex;
   flex-direction: column;
-  width: 55px;
-  height: 72px;
+  justify-content: center;
+  align-items: center;
 }
 .value {
-  font-weight: 400;
   font-size: 40px;
   line-height: 1.2;
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
 .label {
+  text-transform: uppercase;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
