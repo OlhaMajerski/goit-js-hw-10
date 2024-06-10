@@ -11,7 +11,9 @@ inputForm.addEventListener('submit', promiseGenerator);
 function promiseGenerator(e) {
   e.preventDefault();
 
-  const delay = e.target.delay.value;
+  const delayInput = e.target.delay;
+  const delay = delayInput.value;
+  //const delay = e.target.delay.value;
   const status = e.target.state.value;
 
   const promise = new Promise((resolve, reject) => {
@@ -56,7 +58,7 @@ function promiseGenerator(e) {
         iconColor: '#fff',
       });
     });
-
+  delayInput.value = '';
   console.log(promise);
 }
 
