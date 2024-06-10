@@ -124,6 +124,7 @@ const options = {
         messageColor: '#ffffff',
         class: 'resolved-promise',
         backgroundColor: '#b51b1b',
+        iconUrl: iconClose,
         position: 'topRight',
         theme: 'dark',
       });
