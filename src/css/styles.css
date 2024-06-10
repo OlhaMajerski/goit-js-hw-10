@@ -4,9 +4,9 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-body a:hover {
+/* body a:hover {
   transform: scale(1.2);
-}
+} */
 
 /* Reset styles */
 h1,
